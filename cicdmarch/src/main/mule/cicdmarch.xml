@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="cicdmarchFlow" doc:id="9a7bc4d2-22bd-45db-98cb-3d1115fbcfce" >
 		<http:listener doc:name="Listener" doc:id="7e58a191-1ad5-46b0-a93b-cc29a607ee98" config-ref="HTTP_Listener_config" path="/demo"/>
-		<set-payload value='#["welcome to demo on CICD"]' doc:name="Set Payload" doc:id="a5966786-d530-4b5d-978b-1acce04cacd7" />
+		<set-payload value='#["code is available in GITHUB"]' doc:name="Set Payload" doc:id="a5966786-d530-4b5d-978b-1acce04cacd7" />
 	</flow>
 </mule>
